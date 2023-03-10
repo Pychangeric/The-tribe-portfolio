@@ -4,7 +4,7 @@
     top: 0;
     left: 0;
     z-index: 0;
-    color: blueviolet;
+    color: blue;
   }
   *{ 
     padding: 0;
@@ -12,7 +12,7 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
     text-decoration-color: red;
-    align-items: right;
+    align-items: left;
 }
 body{
     background-image: radial-gradient( circle farthest-corner at 20% 30%,  rgba(37, 251, 90, 0.98) 0.1%, rgb(62, 128, 0) 99.8% );;
@@ -31,21 +31,22 @@ nav{
     padding-right: 10%;
 }
   .logo {
-    color: green;
+    color: ghostwhite;
     font-size: 40px;
     font-family: Arial, Helvetica, sans-serif;
+    fill-opacity: initial;
   }
   span{
-    color: gold;
+    color: ghostwhite;
 }
 nav ul li{
     list-style-type: none;
     display: inline-block;
-    padding: 30px 20px 30px left;
+    padding: 30px 39px 40px left;
 }
 nav ul li a{
-color: orangered;
-text-decoration: none;
+color: white;
+text-decoration: double;
 font-weight: bold;
 }
 a:hover {
@@ -74,4 +75,15 @@ h6{
     color: goldenrod;
     text-align: left;
     text-indent: 0cm;
+}
+.skills{
+    width: 100%;
+    padding: 100px 20px;
+}
+.title h2{
+    color:red;
+    font-size: 75px;
+    width: 113px;
+    margin: 30px auto;
+    text-align: center;
 }
