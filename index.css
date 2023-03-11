@@ -136,8 +136,54 @@ h5{
     cursor: pointer;
 }
 .Education background{
+    color: gold;
     width: 100%;
     padding: 100px 0px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 75;
+}
+.card{
+    height: 3px;
+    width: 335px;
+    padding: 10px 20px;
+    border-radius: 15px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    color: white;
+    border: 2px solid;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    page-break-after: always;
+}
+.card .button{
+    color: white;
+    background-color: goldenrod;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+}
+.about me{
+    width: 100%;
+    padding: 100px 0px;
+}
+.title h6{
+    color: gold;
+    font-size: 79px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+}
+.card-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 450px;
 }
 .card{
     height: 365px;
