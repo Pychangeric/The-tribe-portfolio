@@ -170,13 +170,13 @@ h5{
 }
 .about me{
     width: 100%;
-    padding: 100px 0px;
+    padding: 100px 10px;
 }
 .title h6{
     color: gold;
     font-size: 79px;
     width: 1130px;
-    margin: 30px auto;
+    margin: 30px 20px;
     text-align: center;
 }
 .card-box{
@@ -194,7 +194,7 @@ h5{
     position: relative;
     overflow: hidden;
     text-align: center;
-    color: white;
+    color: blue;
     border: 1px solid;
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
