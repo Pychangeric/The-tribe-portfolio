@@ -12,7 +12,7 @@
     font-family: 'Poppins', sans-serif;
 }
 body{
-    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(1, 1, 1, 0.98) 0.1%, rgb(4, 20, 2) 99.8% );;
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(14, 15, 17, 0.98) 0.1%, rgb(10, 10, 11) 99.8% );;
 }
 .hero{
     height: 100vh;
@@ -27,10 +27,6 @@ nav{
     padding-left: 10%;
     padding-right: 10%;
 }
-.nav a {
-   font-size: large;
-   box-sizing: content-box; 
-   }
 .logo{
     color: white;
     font-size: 28px;
@@ -85,15 +81,15 @@ h4{
     margin: 30px auto;
     text-align: center;
 }
-.card-box {
+.card-box{
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 400px;
+    min-height: 450px;
 }
 .card{
-    height: 375px;
-    width: 360px;
+    height: 365px;
+    width: 335px;
     padding: 20px 35px;
     border-radius: 20px;
     margin: 15px;
@@ -104,26 +100,51 @@ h4{
     border: 1px solid;
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
+    page-break-after: always;
 }
 .card i{
     font-size: 50px;
     display: block;
     text-align: center;
     margin: 25px 0px;
-    color: rgb(196, 32, 218);
+    color: goldenrod;
 }
-.card-box {
-    display: flex;
-    justify-content: center;
-    align-items: last baseline;
-    min-height: 400px;
+h5{
+    font: 25px;
+    font-weight: bold;
+    margin-bottom: 15px;
+
+}
+.web p{
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
+}
+.card .button{
+    color: white;
+    background-color: goldenrod;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+}
+.card .button:hover{
+    background-color: transparent;
+    border: 2px solid goldenrod;
+    cursor: pointer;
+}
+.Education background{
+    width: 100%;
+    padding: 100px 0px;
 }
 .card{
-    height: 250px;
-    width: 220px;
+    height: 365px;
+    width: 335px;
     padding: 20px 35px;
     border-radius: 20px;
-    margin: 20px;
+    margin: 15px;
     position: relative;
     overflow: hidden;
     text-align: center;
@@ -131,4 +152,5 @@ h4{
     border: 1px solid;
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
+    page-break-after: always;
 }
