@@ -9,8 +9,9 @@ Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
 ******
 
 ## SCREENSHOTS
-- link 1
-- link 2
+https://github.com/Pychangeric/The-tribe-portfolio/issues/6#issue-1620494881
+https://github.com/Pychangeric/The-tribe-portfolio/issues/5#issue-1620494640
+https://github.com/Pychangeric/The-tribe-portfolio/issues/4#issue-1620494323
 
 
 ********
@@ -51,10 +52,9 @@ Or you can access the web application directly via this [LINK.](link.com/)
 *****
 ## Technologies Used
 1. HTML
-2. MdBootstrap
-3. HTML
-4. CSS
-5. JavaScript
+2. HTML
+3. CSS
+4. JavaScript
 *****
 ## Contact Information
 * Email :pychangeric@gmail.com
