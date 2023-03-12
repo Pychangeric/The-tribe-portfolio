@@ -55,7 +55,7 @@ span{
 contact{
     background-color:green;
     display:inline-block;
-    align:center;
+    align-content:center;
     
 }  
 h1{
